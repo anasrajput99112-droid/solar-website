@@ -22,6 +22,7 @@
 body {
   width: 100%;
   height: 100%;
+  background-color: #edf5fb17;
 }
 
 html {
@@ -47,9 +48,10 @@ html {
 .header {
   width: 100%;
   height: 100%;
-  background-image: url(/assets/hero1.jpg);
+  background-image: url(/assets/hero3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #000;
 }
 /* navbar */
 .navbar {
@@ -70,13 +72,12 @@ html {
   padding: 0.5rem 1.2rem;
   border-radius: 999px;
   font-size: var(--fs-sm);
-  transition: all 0.3s ease-in-out;
-  transform: translateX(-2px);
+  transition: all 0.3s linear;
 }
 .nav-links li a:hover {
   color: var(--white-clr);
   background-color: var(--blue-clr);
-  /* transform: translateX(-2px); */
+  transform: translateX(-2px);
 }
 .nav-links .active {
   color: var(--white-clr);
@@ -254,6 +255,7 @@ html {
   font-size: 3.5rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
+  line-height: 1.1;
 }
 .sub-text {
   display: flex;
@@ -271,7 +273,7 @@ html {
 }
 
 .text-icon {
-  padding: 0.5rem;
+  width: 44px;height: 44px;
   background-color: var(--blue-clr);
   border-radius: 50%;
   display: flex;
@@ -293,10 +295,11 @@ html {
   cursor: pointer;
 }
 
-/* discover-section */
+/*===================== discover-section =================== */
 .discover-section {
   margin-top: 10rem;
 }
+
 .discover-section .top {
   display: flex;
   justify-content: space-between;
@@ -308,8 +311,9 @@ html {
 }
 
 .discover-left h1 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 3rem;
+  line-height: 1.1;
 }
 
 .top .discover-right {
@@ -334,10 +338,139 @@ html {
 }
 
 .bottom-img-container img {
-  width: 90%;
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  object-position: 100%;
   border-radius: 10px;
 }
 
+/*====================== third-section ======================= */
+
+.third-section {
+  margin-top: 13rem;
+}
+
+.third-section-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-section-top .third-t-left {
+  flex: 1;
+  width: 100%;
+}
+#thrid-t-right {
+  flex: 1;
+}
+.third-img-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 2rem;
+}
+.third-img-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+.third-section-top .third-t-left h1 {
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.third-t-left p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.third-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.749);
+  padding-bottom: 1rem;
+  border-radius: 1px;
+  margin-bottom: 1rem;
+  margin-top: 2.6rem;
+}
+
+.third-text-container .third-text h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.third-text-container .third-svg-icon svg {
+  width: 45px;
+  height: 25px;
+  rotate: -30deg;
+}
+
+/* third-section-bottom */
+.third-section-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5.5rem;
+  gap: 5.2rem;
+}
+
+.third-b-left {
+  flex: 1;
+}
+
+.thrid-b-right {
+  flex: 1;
+}
+
+.thrid-b-right h1 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 1.3;
+  margin-bottom: 1.2rem;
+}
+.text {
+  font-size: 0.9rem;
+}
+.btn-container-third {
+  margin-top: 1rem;
+}
+.third-btn {
+  padding: 0.9rem 1.4rem;
+  background-color: var(--blue-clr);
+  border: none;
+  color: var(--white-clr);
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+/* ====================== customer-review ====================== */
+
+.customer-review {
+  margin-top: 8rem;
+}
+
+.customer-review-header {
+  display: flex;
+  gap: 1.1rem;
+}
+
+.review-left {
+  flex: 1;
+}
+
+.review-left h1 {
+  font-weight: 500;
+  font-size: 2.35rem;
+  line-height: 1.2;
+}
+
+.review-right {
+  flex: 1;
+}
+
+.review-right p {
+  font-size: 0.9rem;
+}
 @media (max-width: 660px) {
   .container {
     width: 90%;
@@ -368,9 +501,9 @@ html {
   .logo {
     z-index: 10;
   }
+
   .nav-active {
     transform: translate(0%);
-    /* display: flex; */
   }
 
   .mobile-menu-bar {
@@ -384,9 +517,33 @@ html {
     flex-direction: column-reverse;
   }
 
-  .top {
-    gap: 1rem;
+  .discover-section .top {
+    align-items: self-start;
     flex-direction: column;
-    align-items: start;
+    gap: 1.3rem;
   }
+
+  .third-section-top {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .third-img-container {
+    padding: 0;
+  }
+
+  .third-section-bottom {
+    flex-direction: column-reverse;
+  }
+
+  .third-section-top .third-t-left h1 {
+    font-size: 2.6rem;
+  }
+
+  .customer-review-header {
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+
 }

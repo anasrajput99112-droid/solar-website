@@ -1,1 +1,36 @@
 color #0171DD
+color #EDF5FB
+
+
+
+===============================================================================================
+text 1. Switch to solar for a
+greener future
+
+Reduces electricity bills and offers long-term savings with low
+maintenance costs.
+
+Company Mission Statement
+Community Involvement
+Our Achievements
+
+===============================================================================================
+
+text 2.Empower your home
+with solar solutions
+
+we are dedicated to harnessing the power of the sun to provide clean, efficient
+achieve a sustainable, energy-efficient future. we are dedicated to harnessing
+the power of the sun to provide clean, efficient solar energy solutions. Our team
+combines expertise and innovation to help you achieve a sustainable, energy-
+efficient future.
+
+================================================================================================
+
+text 3. What our customers are saying
+
+Discover your dream home with our extensive listings. Whether you're
+searching for a cozy apartment or a luxurious estate, we have something
+to fit every lifestyle.Unlock the door to your new home. Our curated
+selection of properties and expert guidance make finding the perfect
+place effortless and enjoyable.
