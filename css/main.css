@@ -524,22 +524,33 @@ html {
   width: 20%;
 }
 
+.client-content p {
+  font-size: 0.8rem;
+}
 .client-profle {
   display: flex;
-  background-color: #0171dd;
   margin-top: 1rem;
+  
 }
+
 .client-profle .img-containerr {
-  background-color: rosybrown;
   width: 20%;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .client-profle .img-containerr img {
   width: 60%;
   border-radius: 999px;
+}
+
+.user-name {
+  line-height: 1.2;
+  padding-right: 2rem;
+}
+
+.user-name small {
+  font-size: 0.6rem;
+  color: gray;
 }
 
 @keyframes fadeInUp {
