@@ -2,13 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>SUNVOLT.COM</title>
-    <link rel="stylesheet" href="/css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
   </head>
   <body>
     <header class="header">
@@ -305,7 +302,7 @@
         </div>
       </section>
       <!-- customer review -->
-      <section class="customer-review container">
+      <section class="swiper mySwiper customer-review container">
         <div class="customer-review-header">
           <div class="review-left">
             <h1>
@@ -325,9 +322,8 @@
           </div>
         </div>
 
-        <div class="client-testomlial">
-
-          <div class="client-card">
+        <div class="client-testomlial swiper-wrapper">
+          <div class="client-card swiper-slide">
             <div class="client-top">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -365,7 +361,7 @@
             </div>
           </div>
 
-          <div class="client-card">
+          <div class="client-card swiper-slide">
             <div class="client-top">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -396,14 +392,14 @@
                   <img src="./assets/user-2.png" alt="" />
                 </div>
                 <div class="user-name">
-                  <h6>kenny jenner</h6>
-                  <small>kenny@gmail.com</small>
+                  <h6>john</h6>
+                  <small>john@gmail.com</small>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="client-card">
+          <div class="client-card swiper-slide">
             <div class="client-top">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -434,15 +430,15 @@
                   <img src="./assets/user-3.png" alt="" />
                 </div>
                 <div class="user-name">
-                  <h6>kenny jenner</h6>
-                  <small>kenny@gmail.com</small>
+                  <h6>robert</h6>
+                  <small>robert@gmail.com</small>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
+      <!-- contact section -->
       <section class="contact-us-section container" id="contact">
         <div class="contact-container">
           <div class="contact-left">
@@ -455,152 +451,208 @@
               <button class="third-btn">Contact Us</button>
             </div>
           </div>
+
           <div class="contact-right">
-            <div class="third-text-container">
-              <div class="third-text">
-                <h4>Company Mission Statement</h4>
-              </div>
-              <div class="third-svg-icon">
+            <div class="contact-right-text">
+              <h4 class="title">
+                The Installation time depends on the system size and complecity,
+                but typlcally takes one to two
+              </h4>
+              <div class="svg-box">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 640 640"
-                  fill="#0171DD"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
                 >
                   <path
-                    d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"
-                  />
+                    d="M13.0001 10.9999L22.0002 10.9997L22.0002 12.9997L13.0001 12.9999L13.0001 21.9998L11.0001 21.9998L11.0001 12.9999L2.00004 13.0001L2 11.0001L11.0001 10.9999L11 2.00025L13 2.00024L13.0001 10.9999Z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="contact-right-text">
+              <h4 class="title">
+                Ate there any government incentives for solar Panels?
+              </h4>
+              <div class="svg-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M13.0001 10.9999L22.0002 10.9997L22.0002 12.9997L13.0001 12.9999L13.0001 21.9998L11.0001 21.9998L11.0001 12.9999L2.00004 13.0001L2 11.0001L11.0001 10.9999L11 2.00025L13 2.00024L13.0001 10.9999Z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="contact-right-text">
+              <h4 class="title">
+                How much electricity can a solar panel system Generate?
+              </h4>
+              <div class="svg-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M13.0001 10.9999L22.0002 10.9997L22.0002 12.9997L13.0001 12.9999L13.0001 21.9998L11.0001 21.9998L11.0001 12.9999L2.00004 13.0001L2 11.0001L11.0001 10.9999L11 2.00025L13 2.00024L13.0001 10.9999Z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="contact-right-text">
+              <h4 class="title">Do solar panels panesl.requre maintenance?</h4>
+              <div class="svg-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M13.0001 10.9999L22.0002 10.9997L22.0002 12.9997L13.0001 12.9999L13.0001 21.9998L11.0001 21.9998L11.0001 12.9999L2.00004 13.0001L2 11.0001L11.0001 10.9999L11 2.00025L13 2.00024L13.0001 10.9999Z"
+                  ></path>
                 </svg>
               </div>
             </div>
           </div>
         </div>
       </section>
-
-       <div class="swiper mySwiper container">
-    <div class="swiper-wrapper">
-
-      <div class="swiper-slide">
-        
-            <div class="client-top">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path
-                  d="M4.58341 17.3211C3.55316 16.2274 3 15 3 13.0103C3 9.51086 5.45651 6.37366 9.03059 4.82318L9.92328 6.20079C6.58804 8.00539 5.93618 10.346 5.67564 11.822C6.21263 11.5443 6.91558 11.4466 7.60471 11.5105C9.40908 11.6778 10.8312 13.159 10.8312 15C10.8312 16.933 9.26416 18.5 7.33116 18.5C6.2581 18.5 5.23196 18.0095 4.58341 17.3211ZM14.5834 17.3211C13.5532 16.2274 13 15 13 13.0103C13 9.51086 15.4565 6.37366 19.0306 4.82318L19.9233 6.20079C16.588 8.00539 15.9362 10.346 15.6756 11.822C16.2126 11.5443 16.9156 11.4466 17.6047 11.5105C19.4091 11.6778 20.8312 13.159 20.8312 15C20.8312 16.933 19.2642 18.5 17.3312 18.5C16.2581 18.5 15.232 18.0095 14.5834 17.3211Z"
-                ></path>
-              </svg>
-              <div class="img-container">
-                <img src="./assets/five star.png" alt="" />
-                <small>(4.5%)</small>
-              </div>
-            </div>
-            <div class="client-bottom">
-              <div class="client-content">
-                <p>
-                  Positive Energy Solar Is The Most Professional, Kind, And
-                  Thoughtful Company I've Ever Worked With. After Meeting With
-                  Other Companies, It Was Clear They Were In A Class Of Their
-                  Own. Thankful!
-                </p>
-              </div>
-
-              <div class="client-profle">
-                <div class="img-containerr">
-                  <img src="./assets/user-1.png" alt="" />
-                </div>
-                <div class="user-name">
-                  <h6>kenny jenner</h6>
-                  <small>kenny@gmail.com</small>
-                </div>
-              </div>
-            </div>
-      </div>
-      <div class="swiper-slide">
-        
-            <div class="client-top">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path
-                  d="M4.58341 17.3211C3.55316 16.2274 3 15 3 13.0103C3 9.51086 5.45651 6.37366 9.03059 4.82318L9.92328 6.20079C6.58804 8.00539 5.93618 10.346 5.67564 11.822C6.21263 11.5443 6.91558 11.4466 7.60471 11.5105C9.40908 11.6778 10.8312 13.159 10.8312 15C10.8312 16.933 9.26416 18.5 7.33116 18.5C6.2581 18.5 5.23196 18.0095 4.58341 17.3211ZM14.5834 17.3211C13.5532 16.2274 13 15 13 13.0103C13 9.51086 15.4565 6.37366 19.0306 4.82318L19.9233 6.20079C16.588 8.00539 15.9362 10.346 15.6756 11.822C16.2126 11.5443 16.9156 11.4466 17.6047 11.5105C19.4091 11.6778 20.8312 13.159 20.8312 15C20.8312 16.933 19.2642 18.5 17.3312 18.5C16.2581 18.5 15.232 18.0095 14.5834 17.3211Z"
-                ></path>
-              </svg>
-              <div class="img-container">
-                <img src="./assets/five star.png" alt="" />
-                <small>(4.5%)</small>
-              </div>
-            </div>
-            <div class="client-bottom">
-              <div class="client-content">
-                <p>
-                  Positive Energy Solar Is The Most Professional, Kind, And
-                  Thoughtful Company I've Ever Worked With. After Meeting With
-                  Other Companies, It Was Clear They Were In A Class Of Their
-                  Own. Thankful!
-                </p>
-              </div>
-
-              <div class="client-profle">
-                <div class="img-containerr">
-                  <img src="./assets/user-1.png" alt="" />
-                </div>
-                <div class="user-name">
-                  <h6>kenny jenner</h6>
-                  <small>kenny@gmail.com</small>
-                </div>
-              </div>
-            </div>
-      </div>
-      <div class="swiper-slide">
-            <div class="client-top">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path
-                  d="M4.58341 17.3211C3.55316 16.2274 3 15 3 13.0103C3 9.51086 5.45651 6.37366 9.03059 4.82318L9.92328 6.20079C6.58804 8.00539 5.93618 10.346 5.67564 11.822C6.21263 11.5443 6.91558 11.4466 7.60471 11.5105C9.40908 11.6778 10.8312 13.159 10.8312 15C10.8312 16.933 9.26416 18.5 7.33116 18.5C6.2581 18.5 5.23196 18.0095 4.58341 17.3211ZM14.5834 17.3211C13.5532 16.2274 13 15 13 13.0103C13 9.51086 15.4565 6.37366 19.0306 4.82318L19.9233 6.20079C16.588 8.00539 15.9362 10.346 15.6756 11.822C16.2126 11.5443 16.9156 11.4466 17.6047 11.5105C19.4091 11.6778 20.8312 13.159 20.8312 15C20.8312 16.933 19.2642 18.5 17.3312 18.5C16.2581 18.5 15.232 18.0095 14.5834 17.3211Z"
-                ></path>
-              </svg>
-              <div class="img-container">
-                <img src="./assets/five star.png" alt="" />
-                <small>(4.5%)</small>
-              </div>
-            </div>
-            <div class="client-bottom">
-              <div class="client-content">
-                <p>
-                  Positive Energy Solar Is The Most Professional, Kind, And
-                  Thoughtful Company I've Ever Worked With. After Meeting With
-                  Other Companies, It Was Clear They Were In A Class Of Their
-                  Own. Thankful!
-                </p>
-              </div>
-
-              <div class="client-profle">
-                <div class="img-containerr">
-                  <img src="./assets/user-1.png" alt="" />
-                </div>
-                <div class="user-name">
-                  <h6>kenny jenner</h6>
-                  <small>kenny@gmail.com</small>
-                </div>
-              </div>
-            </div>
-        
-      </div>
-    </div>
-  </div>
-  
     </main>
 
-    
+    <footer class="footer-section">
+      <div class="footer-container container">
+        <div class="footer-top">
+          <div class="footer-t-left">
+            <div class="logo" id="footer-logo">
+              <a href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 640 640"
+                  fill="#0171dd"
+                >
+                  <path
+                    d="M434.8 54.1C446.7 62.7 451.1 78.3 445.7 91.9L367.3 288L512 288C525.5 288 537.5 296.4 542.1 309.1C546.7 321.8 542.8 336 532.5 344.6L244.5 584.6C233.2 594 217.1 594.5 205.2 585.9C193.3 577.3 188.9 561.7 194.3 548.1L272.7 352L128 352C114.5 352 102.5 343.6 97.9 330.9C93.3 318.2 97.2 304 107.5 295.4L395.5 55.4C406.8 46 422.9 45.5 434.8 54.1z"
+                  /></svg
+                >SUNVOLT</a
+              >
+            </div>
+
+            <div class="email-contact">
+              <div class="svg-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="email-text">
+                <small>Sunvolt@gmail.com</small>
+              </div>
+            </div>
+
+            <div class="email-contact">
+              <div class="svg-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M9.36556 10.6821C10.302 12.3288 11.6712 13.698 13.3179 14.6344L14.2024 13.3961C14.4965 12.9845 15.0516 12.8573 15.4956 13.0998C16.9024 13.8683 18.4571 14.3353 20.0789 14.4637C20.599 14.5049 21 14.9389 21 15.4606V19.9234C21 20.4361 20.6122 20.8657 20.1022 20.9181C19.5723 20.9726 19.0377 21 18.5 21C9.93959 21 3 14.0604 3 5.5C3 4.96227 3.02742 4.42771 3.08189 3.89776C3.1343 3.38775 3.56394 3 4.07665 3H8.53942C9.0611 3 9.49513 3.40104 9.5363 3.92109C9.66467 5.54288 10.1317 7.09764 10.9002 8.50444C11.1427 8.9484 11.0155 9.50354 10.6039 9.79757L9.36556 10.6821ZM6.84425 10.0252L8.7442 8.66809C8.20547 7.50514 7.83628 6.27183 7.64727 5H5.00907C5.00303 5.16632 5 5.333 5 5.5C5 12.9558 11.0442 19 18.5 19C18.667 19 18.8337 18.997 19 18.9909V16.3527C17.7282 16.1637 16.4949 15.7945 15.3319 15.2558L13.9748 17.1558C13.4258 16.9425 12.8956 16.6915 12.3874 16.4061L12.3293 16.373C10.3697 15.2587 8.74134 13.6303 7.627 11.6707L7.59394 11.6126C7.30849 11.1044 7.05754 10.5742 6.84425 10.0252Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="email-text">
+                <small>+82388485935</small>
+              </div>
+            </div>
+          </div>
+          <div class="footer-t-right">
+
+            <div class="news-letter-form">
+              <h4>Newsletter</h4>
+              <p>Creating unique brand Experience through <br>personalized promotional items,custom</p>
+              <div class="input-form">
+                <input type="email" name="email" placeholder="Your Email" id="email">
+                <div class="svg-box" id="form-svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="#fff"><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="footer-bottom">
+
+          <div class="footer-grid-container">
+
+            <div class="footer-link-box">
+              <h5>Quick Links</h5>
+             <div class="link">
+              <a href="">Home</a>
+              <a href="">About</a>
+              <a href="">Service</a>
+              <a href="">Blog</a>
+              <a href="">Contact</a>
+              </div>
+           
+            </div>
+
+            
+            <div class="footer-link-box">
+              <h5>About</h5>
+             <div class="link">
+              <a href="">About us</a>
+              <a href="">FAQ</a>
+              <a href="">Terms</a>
+              <a href="">Contact Us</a>
+              <a href="">Dashboard</a>
+              </div>
+           
+            </div>
+            
+            
+            <div class="footer-link-box">
+              <h5>Our Services</h5>
+             <div class="link">
+              <a href="">Installation & Monitoring</a>
+              <a href="">After sales Service</a>
+              <a href="">Free Replacement</a>
+              <a href="">Warrenty Claims</a>
+              <a href="">Energy Equipments</a>
+              </div>
+           
+            </div>
+            
+            
+            <div class="footer-link-box">
+              <h5>Resources</h5>
+             <div class="link">
+              <a href="">News & Blogs</a>
+              <a href="">job & Careers</a>
+              <a href="">Events</a>
+              <a href="">Contact sales</a>
+              <a href="">Supports</a>
+              </div>
+           
+            </div>
+            
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
-   
   </body>
 </html>
