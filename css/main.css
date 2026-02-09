@@ -498,6 +498,7 @@ html {
   background-color: #edf5fb;
   border-radius: 10px;
   padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.281);
 }
 .client-top {
   display: flex;
@@ -510,14 +511,14 @@ html {
   color: var(--blue-clr);
   width: 55px;
   height: 55px;
-  
 }
 
 .client-top .img-container {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end; 
+  justify-content: flex-end;
+  gap: 1rem;
 }
 
 .client-top .img-container img {
@@ -530,7 +531,6 @@ html {
 .client-profle {
   display: flex;
   margin-top: 1rem;
-  
 }
 
 .client-profle .img-containerr {
@@ -552,6 +552,56 @@ html {
   font-size: 0.6rem;
   color: gray;
 }
+
+/* =================== contact-container ================== */
+.contact-container {
+  display: flex;
+  margin-top: 9rem;
+  justify-content: space-between;
+}
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-left h4 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.contact-left p {
+  line-height: 1.5;
+}
+
+/* swiper */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  background-color: #0171dd;
+}
+
+.swiper-wrapper {
+  display: grid;
+ grid-template-columns: repeat(auto-fit, 350px);
+  justify-content: center;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+   background-color: #edf5fb;
+  border-radius: 10px;
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.281);
+}
+
 
 @keyframes fadeInUp {
   from {
