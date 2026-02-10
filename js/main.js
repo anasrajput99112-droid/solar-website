@@ -5,9 +5,7 @@ menubar.addEventListener("click", () => {
   navlink.classList.toggle("nav-active");
 });
 
-
-
-// swiper js 
+// swiper js
 var swiper = new Swiper(".mySwiper", {
   loop: true,
   grabCursor: true,
@@ -23,4 +21,10 @@ var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
     },
   },
+});
+
+// Initialize Lenis smooth scrolling
+const lenis = new Lenis({
+  autoRaf: true,
+  duration: 3.5,
 });

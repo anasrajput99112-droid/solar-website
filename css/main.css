@@ -682,6 +682,13 @@ html {
   gap: 0.7rem;
   color: var(--black-clr);
 }
+
+.sub-footer {
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.354);
+  padding: 2rem 0;
+  font-size: 1.1rem;
+}
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -693,16 +700,7 @@ html {
   }
 }
 
-@keyframes slide-top {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-100px);
-  }
-}
-
-@media (max-width: 660px) {
+@media (max-width: 760px) {
   .container {
     width: 90%;
   }
@@ -796,4 +794,10 @@ html {
   #email {
     width: 100%;
   }
+}
+
+@media (max-width: 1180px) {
+    .container {
+      width: 85%;
+    }
 }
