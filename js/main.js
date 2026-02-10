@@ -5,6 +5,14 @@ menubar.addEventListener("click", () => {
   navlink.classList.toggle("nav-active");
 });
 
+// close mobile nav when a link is clicked
+const navLinks = document.querySelectorAll("#nav-menu-link a");
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    navlink.classList.remove("nav-active");
+  });
+});
+
 // swiper js
 var swiper = new Swiper(".mySwiper", {
   loop: true,
